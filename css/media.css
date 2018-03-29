@@ -1,5 +1,5 @@
 @media only screen and (max-width : 768px){
-	#skills {
+	#skills, .box-info, .background-three, .background-four {
 		height: auto;
 	}
 	.hello{
