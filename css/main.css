@@ -1,0 +1,222 @@
+/* TYPE EFFECT */
+@-webkit-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+#typed-cursor{
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+#particles-js {
+	background-color: #222222 !important;
+}
+/* NAV STYLES */
+nav{
+	background-color: #F1DA49 !important;
+}
+nav ul a.active {
+  background: rgba(0,0,0,0.2);
+}
+
+.logotype {
+	width: 60px;
+	margin-top: 0.5rem;
+}
+#particles-js{
+	background: #181624;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.heart{
+	font-size: 30px;
+	color: #F1DA49;
+}
+.text{
+	font-size: 40px;
+	color: #FFF;
+	font-weight: bold;
+	z-index: 3;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hello {
+	color: #FFF;
+	margin: 0;
+}
+
+.hello span {
+	color: #F1DA49;
+}
+/* ABOUT ME STYLES */
+.box-info{
+	width: 100%;
+	height: 100vh;
+	background-color: #F1DA49;
+	padding-top: 7rem;
+}
+
+#about{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	color: #FFF;
+}
+
+#about span {
+	color: #222222;
+}
+.img-profile{
+	width: 40vh;
+	height: 40vh;
+	margin-top: 5rem;
+}
+.introduction{
+	font-size: 16px;
+	color: #222222;	
+}
+.lab{
+	width: 18vh;
+	margin-right: 1rem;
+}
+.introduction span{
+	background-color: #222222;
+	color: #F1DA49;
+}
+/* SKILLS STYLES */
+#skills{
+    width: 100%;
+    padding-top: 3rem;
+    background-color: #222222;
+    height: 100vh;
+}
+#skill-set, .title-contact h1 {
+	padding-top: 3rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	color: #F1DA49;	
+	font-size: 35px;
+}
+#skill-set{
+	color: #FFF;	
+}
+#skill-set span {
+	color: #F1DA49;
+}
+
+.gif{
+	width: 100%;
+	margin-top: -3em;
+}
+.icon{
+	font-size: 60px;
+	color: #F1DA49;
+	cursor: pointer;
+}
+.tool h5{
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+}
+.tool p{
+	font-size: 14px;
+	color: #6d6d6d;
+}
+#animated-gif{
+	width: 50vh;
+	margin-top: 1rem;
+}
+
+/* PROJECTS STYLES */
+.background-three{
+	width: 100%;
+	height: auto;
+	background-color: #F1DA49;
+}
+.title-work h1{
+	color: #222222;
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;	
+}
+.right, .card a{
+	color: #F1DA49;
+}
+.work{
+	padding-top: 4rem;
+}
+.card-title{
+	font-size: 20px !important;
+	color: #6d6d6d;
+}
+.code{
+	margin-right: 1rem;
+}
+
+/* CONTACT STYLES */
+.background-four{
+	width: 100%;
+	height: 100vh;
+	background-color: #222222;
+}
+.fa{
+	font-size: 50px;
+	margin: 0 2rem;
+	cursor: pointer;
+	padding-top: 5rem;
+}
+.fa:hover{
+	color: #e8c814;
+}
+
+.contactme h4, .contactme h5{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: #FFF;
+}
+.contactme h4{
+	font-size: 30px;
+	color: #FFF;
+}
+
+.cv{
+	padding-top: 2rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: #FFF;
+	font-size: 20px;
+}
+.btn-floating{
+	background-color: #F1DA49 !important;
+	padding-bottom: 2rem;
+}
+
+.fa-linkedin-square, .fa-envelope, .fa-github-square {
+	color: #F1DA49;
+}
+/* FOOTER STYLES */
+footer{
+	background-color: #F1DA49;
+	height: 3.5rem;
+	padding: 0.5rem 0;
+}
+h6{
+	color: #FFF;
+	padding-top: 0.5rem;
+}
