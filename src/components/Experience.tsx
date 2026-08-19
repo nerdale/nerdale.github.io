@@ -6,10 +6,27 @@ import { getSkillIcon } from '../utils/icons';
 import logoConectados from '../../assets/logo_conectados.jpeg';
 import logoLaboratoria from '../../assets/logo_laboratoria.jpeg';
 import logoUnholster from '../../assets/loogo_unholsterchile.jpeg';
+import logoTaller from '../../assets/logo_taller.png';
 
 const experiences = [
-  {
+    {
     id: 1,
+    role: "Project Manager Freelance",
+    company: "Taller Textil Antonia Abarzúa",
+    date: "Jul. 2024 - Presente",
+    location: "Presencial / Chile",
+    current: false,
+    logo: logoTaller,
+    description: [
+      "Reduje los tiempos de entrega hasta en un 50% según tipo de pedido, mediante la implementación de flujos de trabajo más eficientes.",
+      "Re diseñé el proceso de atención a clientes personalizados, pasando de múltiples días de coordinación vía WhatsApp a un flujo estructurado de 3 etapas (consulta inicial, visita en terreno, entrega con instalación), reduciendo tiempos de decisión y mejorando la experiencia del cliente.",
+      "Diseñé e implementé desde cero un sistema de seguimiento en Notion para centralizar documentación y visibilizar el estado de producción, inexistente previamente en el taller.",
+      "Coordino un equipo de 3 a 7 personas entre staff interno y proveedores externos, asegurando calidad y cumplimiento de hitos."
+    ],
+    skills: ["Gestión de proyectos", "Startup", "Diseño experiencia de usuario (UX)"]
+  },
+  {
+    id: 2,
     role: "UX/UI Designer",
     company: "Conectados / Con Carnet",
     date: "May. 2023 - Mar. 2024",
@@ -17,32 +34,33 @@ const experiences = [
     current: false,
     logo: logoConectados,
     description: [
-      "Lideré el diseño integral UX centrado en el usuario, desde investigación hasta entrega.",
-      "Coordiné el roadmap de diseño con equipo TI, asegurando cumplimiento de objetivos y plazos.",
-      "Facilité workshops de co-creación y validación para promover la mejora continua.",
-      "Integré criterios de accesibilidad y usabilidad para optimizar la experiencia y el valor del producto.",
-      "Facilité sesiones de diseño colaborativas para fomentar la innovación, la alineación entre los equipos y la mejora continua."
+      "Lideré el diseño UX end-to-end del producto, incluyendo investigación con usuarios (entrevistas y tests con <10 usuarios) hasta la entrega final de especificaciones.",
+      "Facilité ~15 workshops de co-creación y validación con equipos multidisciplinarios de la organización (TI, producto, comercial y marketing), promoviendo la mejora continua del producto desde una mirada integral.",
+      "Coordiné de forma continua el roadmap de diseño junto a TI y Product Owner, asumiendo progresivamente responsabilidades de gestión de proyecto más allá del rol de diseño, actuando como puente entre el equipo técnico y el área comercial.",
+      "Centralicé en Notion la documentación de producto, minutas de workshops y especificaciones de diseño, facilitando el traspaso técnico y la alineación del equipo.",
+      "Integré criterios de accesibilidad y usabilidad en el proceso de diseño para optimizar la experiencia del producto."
     ],
-    skills: ["FinTech", "Figma", "Startup", "Diseño experiencia de usuario (UX)", "Diseño interfaces (UI)"]
+    skills: ["FinTech", "Figma", "Startup", "Diseño experiencia de usuario (UX)", "Diseño interfaces (UI)", "Gestión de proyectos"]
   },
   {
-    id: 2,
+    id: 3,
     role: "Program Manager & Data Coach",
     company: "Laboratoria",
-    date: "Jun. 2022 - may. 2023",
+    date: "Jun. 2022 - May. 2023",
     location: "Remoto / Chile",
     current: false,
     logo: logoLaboratoria,
     description: [
-      "Lideré equipos multidisciplinarios, asegurando la alineación pedagógica y operativa.",
-      "Diseñé y gestioné estrategia de contenidos y talleres técnicos.",
-      "Implementé mejoras continuas basadas en retroalimentación.",
-      "Diseñé y facilité talleres técnicos de análisis y visualización de datos, alineados con objetivos curriculares."
+      "Lideré un equipo multidisciplinario de 5 personas, asegurando la alineación pedagógica y operativa del programa.",
+      "Diseñé y gestioné la estrategia de contenidos y talleres técnicos para el programa piloto, que alcanzó a más de 50 mujeres.",
+      "Implementé un sistema de mejora continua basado en feedback semanal de las estudiantes, ajustando la ejecución del programa en tiempo real.",
+      "Diseñé y co-facilité talleres técnicos de análisis y visualización de datos para más de 50 mujeres, alineados con objetivos curriculares del programa.",
+      "Colaboré con equipos pedagógicos y técnicos, iterando y mejorando contenidos del programa."
     ],
     skills: ["Gestión de programas", "Startup", "Metodologías ágiles", "Coaching"]
   },
   {
-    id: 3,
+    id: 4,
     role: "Bootcamp Manager",
     company: "Laboratoria",
     date: "Ago. 2019 - May. 2022",
@@ -50,15 +68,15 @@ const experiences = [
     current: false,
     logo: logoLaboratoria,
     description: [
-      "Lideré la ejecución del bootcamp de desarrollo web y UX en Chile, con foco en la empleabilidad de mujeres en tecnología.",
-      "Coordiné planificación académica, operaciones y articulación con stakeholders.",
+      "Gestioné la planificación académica y operativa de 20 generaciones de bootcamp, liderando un equipo de 10 personas.",
+      "Articulé alianzas con stakeholders externos (empresas empleadoras, aliados) e internos, asegurando el cumplimiento de objetivos del programa.",
       "Acompañé a más de 300 mujeres en su transición a roles técnicos, logrando una tasa de empleabilidad superior al 85%.",
-      "Fomenté cultura de aprendizaje y mejora continua."
+      "Fomenté una cultura de aprendizaje y mejora continua aplicando metodologías ágiles en la gestión del programa."
     ],
     skills: ["Gestión de programas", "Startup", "Metodologías ágiles", "Liderazgo equipos multidisciplinarios"]
   },
   {
-    id: 4,
+    id: 5,
     role: "Coach Desarrollo front-end",
     company: "Laboratoria",
     date: "Feb. 2017 - Jul. 2019",
@@ -66,13 +84,13 @@ const experiences = [
     current: false,
     logo: logoLaboratoria,
     description: [
-      "Diseñé y facilité talleres técnicos en HTML, CSS, JavaScript, Git y GitHub para más de 360 mujeres.",
-      "Realicé acompañamiento individualizado para asegurar aprendizaje efectivo."
+      "Diseñé y facilité talleres técnicos en HTML, CSS, JavaScript, Git y GitHub para más de 360 mujeres a lo largo de 6 generaciones del bootcamp.",
+      "Realicé acompañamiento individualizado en clases intensivas (lunes a viernes, 5 horas diarias), asegurando el aprendizaje efectivo de cada estudiante."
     ],
     skills: ["Startup", "Coaching", "Desarrollo front-end", "JavaScript", "Git", "Github"]
   },
     {
-    id: 5,
+    id: 6,
     role: "Desarrollo Front End",
     company: "Unholster",
     date: "Oct. 2016 - Mar. 2017",
@@ -80,8 +98,8 @@ const experiences = [
     current: false,
     logo: logoUnholster,
     description: [
-      "Rediseñé y desarrollé el sitio web corporativo alineado con objetivos estratégicos.",
-      "Implementé control de versiones con Git/GitHub para garantizar calidad y colaboración."
+      "Rediseñé y desarrollé el sitio web corporativo alineado con los objetivos estratégicos de la empresa.",
+      "Implementé control de versiones con Git/GitHub para garantizar calidad y colaboración en el desarrollo."
     ],
     skills: ["Javascript", "Github", "Git", "Diseño web", "UI"]
   }
