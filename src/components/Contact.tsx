@@ -4,19 +4,19 @@ import { Briefcase, Code, Coffee, ArrowRight } from 'lucide-react';
 const contactCards = [
   {
     title: "Proyectos Full-time",
-    description: "¿Buscas una profesional con visión de producto para fortalecer tu área TI?",
+    description: "¿Buscas una Project Manager que sea el puente entre TI, producto y negocio para hacer avanzar tus proyectos?.",
     icon: Briefcase,
     color: "text-blue-500"
   },
   {
     title: "Proyectos Freelance",
-    description: "¿Necesitas transformar una idea en una web app o landing page con diseño estratégico y código robusto?",
+    description: "¿Necesitas ordenar procesos o coordinar un proyecto de punta a punta? Puedo sumar diseño UX/UI o desarrollo web si lo requieres.",
     icon: Code,
     color: "text-emerald-500"
   },
   {
     title: "Colaboraciones",
-    description: "¿Tienes un proyecto innovador o una idea de negocio en mente? Conversemos sobre cómo la tecnología puede impulsarlos.",
+    description: "¿Tienes una idea o un proyecto por armar? Conversemos cómo llevarlo a la práctica con un buen equipo y un plan claro.",
     icon: Coffee,
     color: "text-amber-500"
   }
@@ -41,7 +41,7 @@ export default function Contact() {
           transition={{ delay: 0.1 }}
           className="text-xs sm:text-sm max-w-lg text-slate-500 dark:text-slate-400 font-inter leading-relaxed"
         >
-          Si buscas una profesional que integre código y diseño para impulsar proyectos con propósito, o si simplemente quieres charlar sobre cómo la tecnología puede transformar realidades, conectemos. Estoy a solo un mensaje de distancia..
+          Si buscas a alguien que coordine proyectos y conecte a los equipos de diseño, tecnología y negocio, o simplemente quieres charlar sobre cómo trabajar mejor juntos, conversemos. Estoy a solo un mensaje de distancia.
         </motion.p>
       </div>
 
