@@ -22,7 +22,7 @@ export default function Hero() {
       >
         <p className="text-sm sm:text-base leading-relaxed text-slate-600 dark:text-slate-400 max-w-2xl">
           Project Manager con base en diseño gráfico, JavaScript y Python. Conecto diseño, tecnología y negocio en proyectos ágiles, como puente entre TI y producto.
-          <p>🚴🏻‍♀️ Fuera de la pantalla, casi siempre me encuentras arriba de una bici.</p>
+          <p>🚴🏻‍♀️ Fuera de la pantalla, casi siempre me encuentras arriba de una bicicleta.</p>
         </p>
       </motion.div>
     </div>
