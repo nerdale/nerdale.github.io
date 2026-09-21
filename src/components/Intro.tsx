@@ -10,7 +10,7 @@ export default function Hero() {
         transition={{ duration: 0.5 }}
       >
         <h1 className="text-3xl md:text-4xl font-medium leading-tight tracking-tight text-slate-900 dark:text-slate-50">
-        Diseñadora Gráfica  <br className="hidden md:block" />
+        Project Manager  <br className="hidden md:block" />
         conectando diseño, tecnología y negocio
         </h1>
       </motion.div>
