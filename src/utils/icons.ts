@@ -1,6 +1,6 @@
 import {
   // los que ya tenías
-  TbBrandJavascript, TbCode, TbBrandPython, TbBrandDjango, TbGitBranch, TbFileTypeHtml, TbBrandNotion, TbSitemap, TbUsers, TbFlag, TbUserSearch, TbRoute, TbListCheck, TbWorld, TbDeviceMobile, TbDatabase, TbSchema,
+  TbBrandJavascript, TbCode, TbBrandPython, TbBrandDjango, TbGitBranch, TbFileTypeHtml, TbBrandNotion, TbSitemap, TbUsers, TbFlag, TbUserSearch, TbRoute, TbListCheck, TbWorld, TbDeviceMobile, TbDatabase, TbSchema,TbBrandFigma,
 } from 'react-icons/tb';
 
 export const getSkillIcon = (skill: string) => {
@@ -16,6 +16,7 @@ export const getSkillIcon = (skill: string) => {
   if (s.includes('diagrama')) return TbSchema;                        // opcional
 
   // UX/UI
+  if (s.includes('figma')) return TbBrandFigma;  
   if (s.includes('research')) return TbUserSearch;
   if (s.includes('journey')) return TbRoute;
   if (s.includes('usabilidad')) return TbListCheck;

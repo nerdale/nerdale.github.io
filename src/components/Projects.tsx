@@ -23,7 +23,7 @@ const projects = [
     description: "Re-diseño UX/UI del onboarding para comercios de Locales Conectados en Web y Mobile, basado en research con usuarios.",
     image: proyecto5,
     link: "https://docs.google.com/presentation/d/e/2PACX-1vS0-QRKwPQPtVZE8vbqZXJj_MadJciIznJGfm-q7QKo5MqXctiD_zwUmNQrxGJ12sbYvz50IX9eKnr5/pub?start=false&loop=false&delayms=3000",
-    tags: ["UX Research", "User Journey Map", "Pruebas usabilidad", "Web", "Mobile"] 
+    tags: ["Figma", "UX Research", "User Journey Map", "Pruebas usabilidad", "Web", "Mobile"] 
   },
   {
     id: 3,
