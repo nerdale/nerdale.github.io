@@ -21,7 +21,8 @@ export default function Hero() {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <p className="text-sm sm:text-base leading-relaxed text-slate-600 dark:text-slate-400 max-w-2xl">
-          Diseñadora Gráfica con base técnica en JavaScript y Python, hoy conecto diseño, tecnología y negocio en proyectos ágiles. He liderado equipos multidisciplinarios en programas de formación tech y escalado roles de UX/UI hacia gestión de proyectos, siempre como puente entre TI y producto
+          Project Manager con base en diseño gráfico, JavaScript y Python. Conecto diseño, tecnología y negocio en proyectos ágiles, como puente entre TI y producto.
+          <p>🚴🏻‍♀️ Fuera de la pantalla, casi siempre me encuentras arriba de una bici.</p>
         </p>
       </motion.div>
     </div>

@@ -4,10 +4,29 @@ import { getSkillIcon } from '../utils/icons';
 import proyecto1 from '../../assets/proyecto1.jpg';
 import proyecto2 from '../../assets/proyecto2.jpg';
 import proyecto3 from '../../assets/proyecto3.png';
+import proyecto4 from '../../assets/proyecto4.jpg';
+import proyecto5 from '../../assets/proyecto5.jpg';
+
 
 const projects = [
-  {
+    {
     id: 1,
+    title: "Gestión Taller Textil",
+    description: "Gestión como Project Manager de un taller textil a medida: flujos más eficientes y seguimiento de producción en Notion.",
+    image: proyecto4,
+    link: "https://docs.google.com/presentation/d/e/2PACX-1vRYf4bzozxIVPT0_QoYxiXJUsNhWc_Jv9BiPYrsGpMWr7xb4Ca9xZLdbbUP12EsNJ5HkUaeOlu9Px_F/pub?start=false&loop=false&delayms=3000",
+    tags: ["Gestión de procesos", "Notion", "Liderazgo de equipo", "Hitos"] 
+  },
+  {
+    id: 2,
+    title: "Onboarding Locales Conectados",
+    description: "Re-diseño UX/UI del onboarding para comercios de Locales Conectados en Web y Mobile, basado en research con usuarios.",
+    image: proyecto5,
+    link: "https://docs.google.com/presentation/d/e/2PACX-1vS0-QRKwPQPtVZE8vbqZXJj_MadJciIznJGfm-q7QKo5MqXctiD_zwUmNQrxGJ12sbYvz50IX9eKnr5/pub?start=false&loop=false&delayms=3000",
+    tags: ["UX Research", "User Journey Map", "Pruebas usabilidad", "Web", "Mobile"] 
+  },
+  {
+    id: 3,
     title: "Pedal y Calle",
     description: "Aplicación Web desarrollada con Django que funciona como un centro de recursos para fomentar la movilidad sostenible.",
     image: proyecto1,
@@ -15,20 +34,20 @@ const projects = [
     tags: ["Python", "Django", "SQLite", "CRUD", "OMR"]
   },
   {
-    id: 2,
-    title: "Calculadora horas extras",
-    description: "Aplicación Web desarrollada con Javascript para calcular las horas extras que recibirá un trabajador basado en su sueldo base y cantidad de horas estipuladas en el contrato.",
-    image: proyecto2,
-    link: "https://github.com/nerdale/calculadora_horas_extras",
-    tags: ["Javascript", "Git", "HTML"]
-  },
-  {
-    id: 3,
+    id: 4,
     title: "Gestor de clientes",
-    description: "Plataforma integral desarrollada en Python para la gestión avanzada de clientes. El sistema nace como respuesta a la necesidad de digitalizar procesos manuales, eliminando la duplicidad de datos y mejorando la seguridad mediante una arquitectura basada en Programación Orientada a Objetos (POO) y persistencia de datos robusta.",
+    description: "Plataforma desarrollada en Python para digitalizar la gestión de clientes y evitar la duplicidad de datos.",
     image: proyecto3,
     link: "https://github.com/nerdale/gic_project",
     tags: ["Python", "CRUD", "POO", "Diagrama de clases"] 
+  },
+  {
+    id: 5,
+    title: "Calculadora horas extras",
+    description: "Aplicación Web desarrollada con Javascript para calcular las horas extras de un trabajador según su sueldo base.",
+    image: proyecto2,
+    link: "https://github.com/nerdale/calculadora_horas_extras",
+    tags: ["Javascript", "Git", "HTML"]
   }
 ];
 const getSkillColor = (skill: string) => {
@@ -111,7 +130,7 @@ export default function Projects() {
         className="flex justify-center mt-6"
       >
         <a className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-medium border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors" href="https://github.com/nerdale">
-          Ver todos mis proyectos
+          Ver más en GitHub
         </a>
       </motion.div>
     </section>
